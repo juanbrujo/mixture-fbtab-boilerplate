@@ -1,0 +1,13 @@
+{% block content %} 
+	<div class="content">
+		{% include "header" %}
+
+		<div class="mainbanner">
+			<h2>Title</h2>
+			<img src="http://imgsrc.me/800x300/9a1e1b/f3f3f3?">
+		</div>
+		
+		{{ 5 | lorem_ipsum:'p' }}
+		
+	</div>  
+{% endblock %}
