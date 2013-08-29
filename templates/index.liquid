@@ -1,6 +1,7 @@
 {% block content %} 
+{% include "header" %}
+
 	<div class="content">
-		{% include "header" %}
 
 		<div class="mainbanner">
 			<h2>Title</h2>
@@ -9,5 +10,7 @@
 		
 		{{ 5 | lorem_ipsum:'p' }}
 		
-	</div>  
+	</div>
+
+{% include "footer" %}
 {% endblock %}

@@ -1,8 +1,11 @@
 {% block content %} 
+{% include "header" %}
+
 	<div class="content">
-		{% include "header" %}
 		
 		{{ 10 | lorem_ipsum:'p' }}
 
 	</div>
+
+{% include "footer" %}
 {% endblock %}
