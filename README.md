@@ -13,7 +13,7 @@ This is my own starter to use [Mixture.io](http://mixture.io) as a front-end tem
 - Basic templates
 	- **index.liquid** and some example pages
 	- **nav.liquid** (menu)
-	- **header.liquid** and **footer.liquid** includes
+	- **header.liquid** **footer.liquid** and **scripts.liquid** includes
 - Basic CSS
 	- **800px** width to fit the [Facebook Tab available space](https://developers.facebook.com/docs/appsonfacebook/pagetabs/).
 	- Basic [LESS](http://lesscss.org/) mixins, you won't need to use [LESS](http://lesscss.org/), if you're into [SASS](http://sass-lang.com/) or plain **CSS** just use it and **Mixture.io** will take care of the compile/compress process for you.
