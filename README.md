@@ -11,9 +11,9 @@ This is my own starter to use [Mixture.io](http://mixture.io) as a front-end tem
 	- [jquery-1.10.2.js](http://jquery.com/) (current release)
 	- [selectivizr.js](http://selectivizr.com/)
 - Basic templates
-	- index.liquid and some example pages
-	- nav.liquid (menu)
-	- header.liquid and footer.liquid includes
+	- **index.liquid** and some example pages
+	- **nav.liquid** (menu)
+	- **header.liquid** and **footer.liquid** includes
 - Basic CSS
 	- **800px** width to fit the [Facebook Tab available space](https://developers.facebook.com/docs/appsonfacebook/pagetabs/).
 	- Basic [LESS](http://lesscss.org/) mixins, you won't need to use [LESS](http://lesscss.org/), if you're into [SASS](http://sass-lang.com/) or plain **CSS** just use it and **Mixture.io** will take care of the compile/compress process for you.
@@ -22,6 +22,6 @@ This is my own starter to use [Mixture.io](http://mixture.io) as a front-end tem
 1. Download .zip and unzip / fork and clone → to your computer
 2. Open [Mixture.io app](http://mixture.io) (Windows & Mac) and open this folder, or drag it to the **Mixture** icon. 
 3. The app will start the project and you'll see everything OK when the happy-face-green-message **Everything is a-okay!** shows in the app. 
-4. Start to customize it!
+4. Start to try make fit that beautiful design inside a FBTab!
 
 ######Get a beer and go outside enjoy the real life!
