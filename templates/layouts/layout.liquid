@@ -7,7 +7,7 @@
         <title>{% block title %}Title{% endblock %}</title>
         {{ "style.css" | asset_url | stylesheet_tag }}
         <!--[if lt IE 9]>
-        <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+        {{ "ie.css" | asset_url | stylesheet_tag }}
         {{ "html5shiv.js" | asset_url | script_tag }}
         <![endif]-->
         {% block styles %}{% endblock %}
